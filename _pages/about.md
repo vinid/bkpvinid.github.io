@@ -16,7 +16,7 @@ Institute for Data Science and Analytics and I am a member of the team that is c
 project](https://blog.twitter.com/en_us/topics/company/2018/measuring_healthy_conversation.html) to understand, explore and measure
 how healty the conversations on the platform are.
 
-I have different interests that ranges from neuro-symbolic learning and reasoning to natural language processing and from 
+I have different interests that range from neuro-symbolic learning and reasoning to natural language processing and from 
 quantum physics to deep learning for the e-commerce.
 
 My work has been published in several main AI venues (e.g., [AAAI](https://www.aaai.org/ojs/index.php/AAAI/article/view/4594/4472),
@@ -25,7 +25,7 @@ My work has been published in several main AI venues (e.g., [AAAI](https://www.a
 [Nature PJQI](https://www.nature.com/articles/s41534-020-0248-6), [SWJ](http://www.semantic-web-journal.net/system/files/swj2188.pdf)) and it
 has been also featured in press (see, [1](https://phys.org/news/2020-02-machine-quantum-optics.html), 
 [2](https://www.photonics.com/Articles/Neural_Network_Improves_Quantum_Tomography/a65552), 
-[3](https://www.knowledge.unibocconi.eu/notizia.php?idArt=21787))
+[3](https://www.knowledge.unibocconi.eu/notizia.php?idArt=21787)).
 
 Recent Papers
 ======
