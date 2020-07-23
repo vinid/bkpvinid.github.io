@@ -14,7 +14,7 @@ About Me
 Hello! I am Federico Bianchi, a post-doctoral researcher at Bocconi University, Milan, Italy. I work for the Bocconi 
 Institute for Data Science and Analytics and I am a member of the team that is currently working on a [Twitter funded 
 project](https://blog.twitter.com/en_us/topics/company/2018/measuring_healthy_conversation.html) to understand, explore and measure
-how healty the conversations on the platform are.
+how healthy the conversations on the platform are.
 
 I have different interests that range from neuro-symbolic learning and reasoning to natural language processing and from 
 quantum physics to deep learning for the e-commerce.
