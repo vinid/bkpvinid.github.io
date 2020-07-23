@@ -19,6 +19,9 @@ how healty the conversations on the platform are.
 I have different interests that range from neuro-symbolic learning and reasoning to natural language processing and from 
 quantum physics to deep learning for the e-commerce.
 
+I have been very lucky during my PhD at Bicocca University and I got the chance to speak at different venues like Stanford University
+and Monterey, California and at many other conferences.
+
 My work has been published in several main AI venues (e.g., [AAAI](https://www.aaai.org/ojs/index.php/AAAI/article/view/4594/4472),
  [ACL](https://www.aclweb.org/anthology/2020.acl-main.154.pdf), 
  [ISWC](https://link.springer.com/chapter/10.1007/978-3-030-00671-6_4)) and Q1 Journals (e.g., 
@@ -29,7 +32,6 @@ has been also featured in press (see, [1](https://phys.org/news/2020-02-machine-
 
 Recent Papers
 ======
-
 
 Di Carlo, V., Bianchi, F., & Palmonari, M. (2019, July). **Training temporal word embeddings with a compass.** In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 33, pp. 6326-6334).
 
