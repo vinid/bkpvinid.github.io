@@ -30,6 +30,8 @@ has been also featured in press (see, [1](https://phys.org/news/2020-02-machine-
 [2](https://www.photonics.com/Articles/Neural_Network_Improves_Quantum_Tomography/a65552), 
 [3](https://www.knowledge.unibocconi.eu/notizia.php?idArt=21787)).
 
+If you would like to contact me you can send me an [email](f.bianchi@unibocconi.it).
+
 Recent Papers
 ======
 
