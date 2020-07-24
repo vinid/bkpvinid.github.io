@@ -22,11 +22,11 @@ quantum physics to deep learning for the e-commerce.
 I have been very lucky during my PhD at Bicocca University and I got the chance to speak at different venues like Stanford University
 and Monterey, California and at many other conferences.
 
-My work has been published in several main AI venues (e.g., [AAAI](https://www.aaai.org/ojs/index.php/AAAI/article/view/4594/4472),
+I have papers in different AI venues (e.g., [AAAI](https://www.aaai.org/ojs/index.php/AAAI/article/view/4594/4472),
  [ACL](https://www.aclweb.org/anthology/2020.acl-main.154.pdf), 
  [ISWC](https://link.springer.com/chapter/10.1007/978-3-030-00671-6_4)) and Q1 Journals (e.g., 
-[Nature PJQI](https://www.nature.com/articles/s41534-020-0248-6), [SWJ](http://www.semantic-web-journal.net/system/files/swj2188.pdf)) and it
-has been also featured in press (see, [1](https://phys.org/news/2020-02-machine-quantum-optics.html), 
+[Nature PJQI](https://www.nature.com/articles/s41534-020-0248-6), [SWJ](http://www.semantic-web-journal.net/system/files/swj2188.pdf)) and a few things have also been
+ featured in press (see, [1](https://phys.org/news/2020-02-machine-quantum-optics.html), 
 [2](https://www.photonics.com/Articles/Neural_Network_Improves_Quantum_Tomography/a65552), 
 [3](https://www.knowledge.unibocconi.eu/notizia.php?idArt=21787)).
 
