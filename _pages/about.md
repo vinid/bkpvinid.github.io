@@ -16,10 +16,10 @@ Institute for Data Science and Analytics and I am a member of the team that is c
 project](https://blog.twitter.com/en_us/topics/company/2018/measuring_healthy_conversation.html) to understand, explore and measure
 how healthy the conversations on the platform are.
 
-I have different interests that range from neuro-symbolic learning and reasoning to natural language processing and from 
+I like doing a lot of different things! I have different interests that range from neuro-symbolic learning and reasoning to natural language processing and from 
 quantum physics to deep learning for the e-commerce.
 
-I have been very lucky during my PhD at Bicocca University and I got the chance to speak at different venues like Stanford University
+During my PhD at Bicocca University I was very lucky and I got the chance to speak at different venues like Stanford University
 and Monterey, California and at many other conferences.
 
 I have papers in different AI venues (e.g., [AAAI](https://www.aaai.org/ojs/index.php/AAAI/article/view/4594/4472),
