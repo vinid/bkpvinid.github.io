@@ -11,30 +11,25 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science, University of Milan-Bicocca, 2014
+* M.S.  in Computer Science, University of Milan-Bicocca, 2016
+* Ph.D in Computer Science, University of Milan-Bicocca, 2020
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2020: Post Doc at Bocconi University (working with, Prof. Dirk Hovy)
+  * Twitter Health Project
+  * General NLP
+  
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
+* Artificial Intelligence
+* Deep Learning/Machine Learning
+* Knowledge Graph/Knowledge Graph Exploration
+* Programming, Software Development and Engineering
 
 Publications
 ======
@@ -56,4 +51,5 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in too many different slack teams
+* Love working with people on cool stuff
