@@ -28,7 +28,8 @@ I have papers in different AI venues (e.g., [AAAI](https://www.aaai.org/ojs/inde
 [Nature PJQI](https://www.nature.com/articles/s41534-020-0248-6), [SWJ](http://www.semantic-web-journal.net/system/files/swj2188.pdf)) and a few things have also been
  featured in press or in company media outlets (see, [1](https://phys.org/news/2020-02-machine-quantum-optics.html), 
 [2](https://www.photonics.com/Articles/Neural_Network_Improves_Quantum_Tomography/a65552), 
-[3](https://www.knowledge.unibocconi.eu/notizia.php?idArt=21787), [4](https://blog.coveo.com/multi-brand-personalization-in-ecommerce/).
+[3](https://www.knowledge.unibocconi.eu/notizia.php?idArt=21787), 
+[4](https://blog.coveo.com/multi-brand-personalization-in-ecommerce/)).
 
 If you would like to contact me you can send me an [email](f.bianchi@unibocconi.it).
 
