@@ -11,16 +11,21 @@ redirect_from:
 About Me
 ======
 
+Short Summary
+--------------
+
 Hello! I am Federico Bianchi, a post-doctoral researcher at Bocconi University, Milan, Italy. I work for the Bocconi 
 Institute for Data Science and Analytics and I am a member of the team that is currently working on a [Twitter funded 
 project](https://blog.twitter.com/en_us/topics/company/2018/measuring_healthy_conversation.html) to understand, explore and measure
-how healthy the conversations on the platform are.
+how healthy the conversations on the platform are. During my PhD at Bicocca University I got the chance to speak at different venues like Stanford University
+and Monterey, California and at many other conferences.
+
+
+Research Experience
+-------------------
 
 I like doing a lot of different things! I have different interests that range from neuro-symbolic learning and reasoning to natural language processing and from 
 quantum physics to deep learning for the e-commerce.
-
-During my PhD at Bicocca University I got the chance to speak at different venues like Stanford University
-and Monterey, California and at many other conferences.
 
 I have papers in different AI venues (e.g., [AAAI](https://www.aaai.org/ojs/index.php/AAAI/article/view/4594/4472),
  [ACL](https://www.aclweb.org/anthology/2020.acl-main.154.pdf), 
@@ -30,6 +35,16 @@ I have papers in different AI venues (e.g., [AAAI](https://www.aaai.org/ojs/inde
 [2](https://www.photonics.com/Articles/Neural_Network_Improves_Quantum_Tomography/a65552), 
 [3](https://www.knowledge.unibocconi.eu/notizia.php?idArt=21787), 
 [4](https://blog.coveo.com/multi-brand-personalization-in-ecommerce/)).
+
+
+Industry Experience
+-------------------
+
+I have also worked/collaborated with companies: I have collaborated as a Data Scientist for [Instal LLC](https://instal.com)  and I have an ongoing 
+research collaboration with people in [Coveo](https://www.coveo.com/en) on e-commerce and recommendation research. In the past, 
+I worked as a full-stack software developer for Mobave LLC (later acquired by Instal) and for Whattaspot.
+
+
 
 If you would like to contact me you can send me an [email](f.bianchi@unibocconi.it).
 
