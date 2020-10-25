@@ -31,8 +31,10 @@ I have papers in different AI venues (e.g., [AAAI](https://www.aaai.org/ojs/inde
  featured in press or in company media outlets (see, [1](https://phys.org/news/2020-02-machine-quantum-optics.html), 
 [2](https://www.photonics.com/Articles/Neural_Network_Improves_Quantum_Tomography/a65552), 
 [3](https://www.knowledge.unibocconi.eu/notizia.php?idArt=21787), 
-[4](https://blog.coveo.com/multi-brand-personalization-in-ecommerce/)).
+[4](https://blog.coveo.com/multi-brand-personalization-in-ecommerce/)). 
+I also serve as part of the program committee of major AI conferences (IJCAI, ACL, EMNLP, EACL, NAACL).
 
+I try my best to build good software and code that can be used to replicate experiments. See for example our [topic modeling package](https://github.com/MilaNLProc/contextualized-topic-models) that got more than 10K downloads.
 
 Industry Experience
 -------------------
