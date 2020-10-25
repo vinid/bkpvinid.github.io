@@ -59,3 +59,5 @@ Di Carlo, V., Bianchi, F., & Palmonari, M. (2019, July). **Training temporal wor
 Palmieri, A. M., Kovlakov, E., Bianchi, F., Yudin, D., Straupe, S., Biamonte, J. D., & Kulik, S. (2020). **Experimental neural network enhanced quantum tomography.** npj Quantum Information, 6(1), 1-5.
 
 Hovy, D., Bianchi, F., & Fornaciari, T. (2020, July). **"You Sound Just Like Your Father" Commercial Machine Translation Systems Include Stylistic Biases.** In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (pp. 1686-1690).
+
+Tagliabue, J., Yu, B., & Bianchi, F. (2020, September). The Embeddings That Came in From the Cold: Improving Vectors for New and Rare Products with Content-Based Inference. In Fourteenth ACM Conference on Recommender Systems (pp. 577-578).
