@@ -35,7 +35,7 @@ In our RecSys paper we show how can tackle the cold start problem for product em
 
 **Pres Release**: [https://blog.coveo.com/solving-the-cold-start-problem/](https://blog.coveo.com/solving-the-cold-start-problem/)
 
-Tagliabue, J., Yu, B., & Bianchi, F. (2020, September). The Embeddings That Came in From the Cold: Improving Vectors for New and Rare Products with Content-Based Inference. In Fourteenth ACM Conference on Recommender Systems (pp. 577-578).
+Tagliabue, J., Yu, B., & **Bianchi, F.** (2020, September). The Embeddings That Came in From the Cold: Improving Vectors for New and Rare Products with Content-Based Inference. In Fourteenth ACM Conference on Recommender Systems (pp. 577-578).
 
 ## AAAI 2019
 
