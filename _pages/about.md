@@ -24,9 +24,9 @@ Research Experience
 I like doing a lot of different things! I have different interests that range from neuro-symbolic learning and reasoning to natural language processing and from 
 quantum physics to deep learning for the e-commerce.
 
-I have papers in different AI venues (e.g., [AAAI](https://www.aaai.org/ojs/index.php/AAAI/article/view/4594/4472),
+I have papers in the main track of different AI venues (e.g., [AAAI](https://www.aaai.org/ojs/index.php/AAAI/article/view/4594/4472),
  [ACL](https://www.aclweb.org/anthology/2020.acl-main.154.pdf), 
- [ISWC](https://link.springer.com/chapter/10.1007/978-3-030-00671-6_4), [RecSys](https://dl.acm.org/doi/abs/10.1145/3383313.3411477)) and Q1 Journals (e.g., 
+ [ISWC](https://link.springer.com/chapter/10.1007/978-3-030-00671-6_4), [RecSys](https://dl.acm.org/doi/abs/10.1145/3383313.3411477)), workshop proceedings (WWW, NeurIPS) and Q1 Journals (e.g., 
 [Nature PJQI](https://www.nature.com/articles/s41534-020-0248-6), [SWJ](http://www.semantic-web-journal.net/system/files/swj2188.pdf)) and a few things have also been
  featured in press or in company media outlets (see, [1](https://phys.org/news/2020-02-machine-quantum-optics.html), 
 [2](https://www.photonics.com/Articles/Neural_Network_Improves_Quantum_Tomography/a65552), 
