@@ -5,6 +5,9 @@ permalink: /projects/
 author_profile: true
 ---
 
+Here I am listing some of the projects I am working on. I try to make everything I do available on github in such a way that experiments can be
+replicated and people can see what I am doing.
+
 # Contextualized Topic Modeling (CTM)
 
 Contextualized Topic Models (CTM) are a family of topic models that use pre-trained representations of language (e.g., BERT) to support topic modeling. See the papers for details:
