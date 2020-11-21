@@ -53,7 +53,7 @@ Bye :)
 Fede
 
 Recent Papers
-======
+-------------
 
 Di Carlo, V., Bianchi, F., & Palmonari, M. (2019, July). **Training temporal word embeddings with a compass.** In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 33, pp. 6326-6334).
 
