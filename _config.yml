@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : fb_vinid
 facebook:
   username               :
   app_id                 :
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Federico Bianchi"
   avatar           : "mini.png"
-  bio              : "Post-doctoral computer scientist. Cats fan."
+  bio              : "Post-doctoral computer scientist. Reasoning and NLP. Cats fan."
   location         : "Milan"
   employer         :
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=1okGjb8AAAAJ&hl=it"
-  email            :
+  email            :  "f.bianchi@unibocconi.it"
   researchgate     :  "https://www.researchgate.net/profile/Federico_Bianchi11"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        : "vinid_h"
   #impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/federico-bianchi-3b7998121/
   orcid            : "https://orcid.org/0000-0003-0776-361X"
   pinterest        :
   soundcloud       :
