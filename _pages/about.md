@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Me"
-excerpt: "I am Federico Bianchi, a post-doctoral researcher at Bocconi University. Interested in NLP, Language, Reasoning and Cognitive Stuff"
+excerpt: "I am Federico Bianchi, a post-doctoral researcher at Bocconi University. Interested in NLP, Language, Reasoning and Cognitive Stuff."
 author_profile: true
 redirect_from: 
   - /about/
