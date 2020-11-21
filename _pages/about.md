@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Federico Bianchi"
-excerpt: "About me"
+title: "Me"
+excerpt: "I am Federico Bianchi, a post-doctoral researcher at Bocconi University. Interested in NLP, Language, Reasoning and Cognitive Stuff"
 author_profile: true
 redirect_from: 
   - /about/
@@ -45,7 +45,7 @@ I worked as a full-stack software developer for Mobave LLC (later acquired by In
 
 
 
-If you would like to contact me you can send me an [email](f.bianchi@unibocconi.it).
+If you would like to contact me you can send me an email: f.bianchi@unibocconi.it.
 
 Bye :)
 
@@ -60,4 +60,4 @@ Palmieri, A. M., Kovlakov, E., Bianchi, F., Yudin, D., Straupe, S., Biamonte, J.
 
 Hovy, D., Bianchi, F., & Fornaciari, T. (2020, July). **"You Sound Just Like Your Father" Commercial Machine Translation Systems Include Stylistic Biases.** In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (pp. 1686-1690).
 
-Tagliabue, J., Yu, B., & Bianchi, F. (2020, September). The Embeddings That Came in From the Cold: Improving Vectors for New and Rare Products with Content-Based Inference. In Fourteenth ACM Conference on Recommender Systems (pp. 577-578).
+Tagliabue, J., Yu, B., & Bianchi, F. (2020, September). **The Embeddings That Came in From the Cold: Improving Vectors for New and Rare Products with Content-Based Inference.** In Fourteenth ACM Conference on Recommender Systems (pp. 577-578).
