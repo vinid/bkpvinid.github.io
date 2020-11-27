@@ -44,7 +44,8 @@ I have also worked/collaborated with companies: I have collaborated as a Data Sc
 research collaboration with people in [Coveo](https://www.coveo.com/en) on e-commerce and recommendation research. In the past, 
 I worked as a full-stack software developer for Mobave LLC (later acquired by Instal) and for Whattaspot.
 
-
+Contact
+-------
 
 If you would like to contact me you can send me an email: f.bianchi@unibocconi.it.
 
