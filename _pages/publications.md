@@ -5,6 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
+You can find most of my work on <u><a href="https://scholar.google.com/citations?user=1okGjb8AAAAJ&hl=it">my Google Scholar profile</a>. Here's some recent
+stuff I have been doing:
+
+
 ### Knowledge Graphs for eXplainable AI 
 
 Our recent chapter wsa published in the Knowledge Graphs for eXplainable AI book. We explore the state of the art of knowledge graph embeddings and describe
@@ -53,7 +57,6 @@ Di Carlo, V., **Bianchi, F.**, & Palmonari, M. (2019, July). Training temporal w
 In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 33, pp. 6326-6334).
 
 
-You can find my other articles on <u><a href="https://scholar.google.com/citations?user=1okGjb8AAAAJ&hl=it">my Google Scholar profile</a>.
 
 {% include base_path %}
 
