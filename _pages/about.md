@@ -6,14 +6,14 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-canonical_url: 'https://vinid.io'
 ---
+
+Hello! I am Federico Bianchi, a post-doctoral researcher at Bocconi University, Milan, Italy.
 
 Short Summary
 --------------
 
-Hello! I am Federico Bianchi, a post-doctoral researcher at Bocconi University, Milan, Italy. I work for the Bocconi 
-Institute for Data Science and Analytics and I am a member of the team that is currently working on a [Twitter funded 
+I work for the Bocconi Institute for Data Science and Analytics and I am a member of the team that is currently working on a [Twitter funded 
 project](https://blog.twitter.com/en_us/topics/company/2018/measuring_healthy_conversation.html) to understand, explore and measure
 how healthy the conversations on the platform are. During my PhD at Bicocca University I got the chance to speak at different venues like Stanford University
 and Monterey, California and at many other conferences.
@@ -27,7 +27,7 @@ quantum physics to deep learning for the e-commerce.
 
 I have papers in the main track of different AI venues (e.g., [AAAI](https://www.aaai.org/ojs/index.php/AAAI/article/view/4594/4472),
  [ACL](https://www.aclweb.org/anthology/2020.acl-main.154.pdf), 
- [ISWC](https://link.springer.com/chapter/10.1007/978-3-030-00671-6_4), [RecSys](https://dl.acm.org/doi/abs/10.1145/3383313.3411477)), workshop proceedings (WWW, NeurIPS) and Q1 Journals (e.g., 
+ [ISWC](https://link.springer.com/chapter/10.1007/978-3-030-00671-6_4), [RecSys](https://dl.acm.org/doi/abs/10.1145/3383313.3411477)), workshop proceedings (WWW, [NeurIPS](https://github.com/orlrworkshop/orlrworkshop.github.io/blob/master/pdf/ORLR_12.pdf) and Q1 Journals (e.g., 
 [Nature PJQI](https://www.nature.com/articles/s41534-020-0248-6), [SWJ](http://www.semantic-web-journal.net/system/files/swj2188.pdf)) and a few things have also been
  featured in press or in company media outlets (see, [1](https://phys.org/news/2020-02-machine-quantum-optics.html), 
 [2](https://www.photonics.com/Articles/Neural_Network_Improves_Quantum_Tomography/a65552), 
