@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Me"
+title: "About Me - Post-doc @ Bocconi University"
 excerpt: "I am Federico Bianchi, a post-doctoral researcher at Bocconi University. Interested in NLP, Language, Reasoning and Cognitive Stuff."
 author_profile: true
 redirect_from: 
@@ -8,15 +8,19 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am Federico Bianchi, a post-doctoral researcher at Bocconi University, Milan, Italy. I was a PhD Student at University of Milan-Bicocca ([Prof. Matteo Palmonari](http://inside.disco.unimib.it/index.php/people/matteo-palmonari/)) and 
+Hello! I am Federico Bianchi, a post-doctoral researcher at Bocconi University (with [Prof. Dirk Hovy](http://www.dirkhovy.com/), Milan, Italy. I was a PhD Student at University of Milan-Bicocca ([Prof. Matteo Palmonari](http://inside.disco.unimib.it/index.php/people/matteo-palmonari/)) and 
 a Visiting Scholar at [Wright State University](https://www.wright.edu/), Ohio, US ([Prof. Pascal Hitzler](http://www.pascal-hitzler.de/)).
+I have experience in Artificial Intelligence (AI), Machine Learning (ML) and Natural Language Processing (NLP).
 
-Short Summary
---------------
+Artificial Intelligence, Machine Learning and Natural Language Processing
+-------------------------------------------------------------------------
 
 I work for the Bocconi Institute for Data Science and Analytics and I am a member of the team that is currently working on a [Twitter funded 
 project](https://blog.twitter.com/en_us/topics/company/2018/measuring_healthy_conversation.html) to understand, explore and measure
-how healthy the conversations on the platform are (with [Prof. Dirk Hovy](http://www.dirkhovy.com/). During my PhD at Bicocca University I got the chance to speak at different venues like Stanford University
+how healthy the conversations on the platform are. I have introduced and worked with algorithms for artificial intelligence and for
+data analytics over text.
+
+During my PhD at Bicocca University I got the chance to speak at different venues like Stanford University
 and Monterey, California and at many other conferences.
 
 

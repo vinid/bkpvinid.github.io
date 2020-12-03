@@ -37,8 +37,6 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-
-  
 Service and leadership
 ======
 * Currently signed in too many different slack teams
