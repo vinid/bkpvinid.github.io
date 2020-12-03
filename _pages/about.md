@@ -16,7 +16,7 @@ Short Summary
 
 I work for the Bocconi Institute for Data Science and Analytics and I am a member of the team that is currently working on a [Twitter funded 
 project](https://blog.twitter.com/en_us/topics/company/2018/measuring_healthy_conversation.html) to understand, explore and measure
-how healthy the conversations on the platform are. During my PhD at Bicocca University I got the chance to speak at different venues like Stanford University
+how healthy the conversations on the platform are (with [Prof. Dirk Hovy](http://www.dirkhovy.com/). During my PhD at Bicocca University I got the chance to speak at different venues like Stanford University
 and Monterey, California and at many other conferences.
 
 
