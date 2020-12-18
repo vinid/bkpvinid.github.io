@@ -8,10 +8,16 @@ author_profile: true
 You can find most of my work on <u><a href="https://scholar.google.com/citations?user=1okGjb8AAAAJ&hl=it">my Google Scholar profile</a>. Here's some recent
 stuff I have been doing:
 
+### BERT Goes Shopping
+
+Our recent paper on how to use BERT for eCommerce Products, introducing ProdBERT! We show that ProdBERT is very good for next event prediction, but
+that it also requires a very big amount of training data to work efficiently.
+
++ **Paper**: [https://arxiv.org/abs/2012.09807](https://arxiv.org/abs/2012.09807)
 
 ### Knowledge Graphs for eXplainable AI 
 
-Our recent chapter wsa published in the Knowledge Graphs for eXplainable AI book. We explore the state of the art of knowledge graph embeddings and describe
+Our recent chapter was published in the Knowledge Graphs for eXplainable AI book. We explore the state of the art of knowledge graph embeddings and describe
 possible applications for explainability in artificial intelligence 
 
 + **Paper**: [https://arxiv.org/abs/2004.14843](https://arxiv.org/abs/2004.14843)

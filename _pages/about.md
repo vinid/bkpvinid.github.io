@@ -61,6 +61,8 @@ Fede
 Recent Papers
 -------------
 
+Bianchi, F., Bingqing, Y., & Tagliabue, J. (2020). **BERT Goes Shopping: Comparing Distributional Models for Product Representations.** [Arixv-preprint](https://arxiv.org/abs/2012.09807).
+
 Di Carlo, V., Bianchi, F., & Palmonari, M. (2019, July). **Training temporal word embeddings with a compass.** In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 33, pp. 6326-6334).
 
 Palmieri, A. M., Kovlakov, E., Bianchi, F., Yudin, D., Straupe, S., Biamonte, J. D., & Kulik, S. (2020). **Experimental neural network enhanced quantum tomography.** npj Quantum Information, 6(1), 1-5.
