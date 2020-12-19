@@ -20,6 +20,15 @@ defaults:
       related: true
 ---
 
+(In Progress)
+
+The main idea behind this work is to give an overview of some of the work I did on combining distributional semantics methods with
+ontological representation learning.
+
+Ontological concepts are used to categorize entities. For example, the concept that categorize Barack Obama and Donald Trump, might be Politician. Concepts are also referred to as types.
+
+
+
 ## Distributional Semantics
 
 Distributional Semantics, is a well-known theory about meaning: the general assumption is that the meaning of a 
@@ -29,6 +38,7 @@ you can more or less get a general idea of what "swelybot" might refer to: an an
 
 ## Distributional Semantics in the Vector Space
 
+During the various years that followed the introduction of distributional semantics, people started to introduce different
 The only way for us to use distributional semantics in computer science/computational linguistics is to brings words and 
 sentences to the vector space.
 
