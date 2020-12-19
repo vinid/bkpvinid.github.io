@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am Federico Bianchi, a post-doctoral researcher at Bocconi University (with [Prof. Dirk Hovy](http://www.dirkhovy.com/), Milan, Italy. I was a PhD Student at University of Milan-Bicocca ([Prof. Matteo Palmonari](http://inside.disco.unimib.it/index.php/people/matteo-palmonari/)) and 
+Hello! I am Federico Bianchi, a post-doctoral researcher at Bocconi University (with [Prof. Dirk Hovy](http://www.dirkhovy.com/)), Milan, Italy. I was a PhD Student at University of Milan-Bicocca ([Prof. Matteo Palmonari](http://inside.disco.unimib.it/index.php/people/matteo-palmonari/)) and 
 a Visiting Scholar at [Wright State University](https://www.wright.edu/), Ohio, US ([Prof. Pascal Hitzler](http://www.pascal-hitzler.de/)).
 I have experience in Artificial Intelligence (AI), Machine Learning (ML) and Natural Language Processing (NLP).
 
