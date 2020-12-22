@@ -38,13 +38,12 @@ I have papers in the main track of different AI venues (e.g., [AAAI](https://www
 [2](https://www.photonics.com/Articles/Neural_Network_Improves_Quantum_Tomography/a65552), 
 [3](https://www.knowledge.unibocconi.eu/notizia.php?idArt=21787), 
 [4](https://blog.coveo.com/multi-brand-personalization-in-ecommerce/)). 
-k
-b-------------------
 
 I have also worked/collaborated with companies: I have collaborated as a Data Scientist for [Instal LLC](https://instal.com)  and I have an ongoing 
 research collaboration with people in [Coveo](https://www.coveo.com/en) on e-commerce and recommendation research. In the past, 
 I worked as a full-stack software developer for Mobave LLC (later acquired by Instal) and for Whattaspot.
 
+NEWS
 ----
 
 + (21/12/2020) I am co-organizing a tutorial at [IJCAI 2020](https://www.ijcai20.org) about Neuro-Symbolic Learning and Reasoning
