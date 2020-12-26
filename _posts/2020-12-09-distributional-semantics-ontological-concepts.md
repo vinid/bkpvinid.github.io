@@ -22,10 +22,7 @@ defaults:
 
 (In Progress)
 The main idea behind this blog post is to give an overview of some of the work I did on combining distributional semantics methods with
-ontological representation learning. You can find the main ideas that drove this blogpost in the two following works:
-
-+ Bianchi, F., Palmonari, M., & Nozza, D. (2018, October). Towards encoding time in text-based entity embeddings. In International Semantic Web Conference (pp. 56-71). Springer, Cham.
-+ Bianchi, F., Soto, M., Palmonari, M., & Cutrona, V. (2018). Type Vector Representations from Text: An Empirical Analysis. In DL4KGS@ ESWC (pp. 72-83).
+ontological representation learning.
 
 ## Ontological Concepts
 
@@ -50,6 +47,10 @@ word2vec paper by Mikolov et al., 2013.
 
 Word2vec trains a one hidden layer neural network[^1] end essentially it learns to predict a word from a neighbouring word and viceversa. During this training process, it learns the representation of words. These representations, based on the co-occurrence of the word in a corpus, can be used for many different tasks. More importantly, since the model is inspired by distributional semantics, these representations exibit some expected qualities, for example, similar words will have similar vectors.
 
+The following image sums everyting up:
+![](https://github.com/vinid/vinid.github.io/raw/3b90046e970d8347dc9afc4a1870e79a26639f81/images/posts/ds/blog_distributional_semantics_id.png)
+The most simplistic way to see distributional semantics when applied in computation is to think of it has a method to put words that appear in similar contexts into close positions in a vector space.
+
 ## Distributional Semantics for Ontological Concepts
 
 A concept we need to introduce to better understand what are we going to talk about is the concept of Knowledge Graph. A knowledge graph is a way to model knoweldge using a graph. Roughly speaking, in a knowledge graph, nodes describe real world entities (e.g., Barack Obama) and edges are relationships that connect the entities (e.g., Barack Obama, born in, Hawaii).
@@ -59,6 +60,11 @@ The following figure shows the process with simple and high level steps.
 ![](https://github.com/vinid/vinid.github.io/raw/master/images/posts/ds/ds_process_types.jpg)
 
 ## To Know More
+You can find the main ideas that drove this blogpost in the two following works:
+
++ Bianchi, F., Palmonari, M., & Nozza, D. (2018, October). Towards encoding time in text-based entity embeddings. In International Semantic Web Conference (pp. 56-71). Springer, Cham.
++ Bianchi, F., Soto, M., Palmonari, M., & Cutrona, V. (2018). Type Vector Representations from Text: An Empirical Analysis. In DL4KGS@ ESWC (pp. 72-83).
+
 
 Word2vec is now considered an "ond" algorithm (even if it sill has a lot of applications). More recent language models
 such as ELMo and BERT tend to be used.
