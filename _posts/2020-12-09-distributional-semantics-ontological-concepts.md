@@ -47,7 +47,7 @@ word2vec paper by Mikolov et al., 2013.
 
 Word2vec trains a one hidden layer neural network[^1] end essentially it learns to predict a word from a neighbouring word and viceversa. During this training process, it learns the representation of words. These representations, based on the co-occurrence of the word in a corpus, can be used for many different tasks. More importantly, since the model is inspired by distributional semantics, these representations exibit some expected qualities, for example, similar words will have similar vectors.
 
-The following image sums everyting up:
+The following image sums everything up:
 ![](https://github.com/vinid/vinid.github.io/raw/3b90046e970d8347dc9afc4a1870e79a26639f81/images/posts/ds/blog_distributional_semantics_id.png)
 The most simplistic way to see distributional semantics when applied in computation is to think of it has a method to put words that appear in similar contexts into close positions in a vector space.
 
