@@ -29,6 +29,10 @@ ontological representation learning.
 Ontological concepts are used to categorize entities. For example, the concept that categorize Barack Obama and Donald Trump, might be **Politician**. Concepts are also referred to as types.
 Types are also often organized in hierarchies, indicating subclass of relationships: for example, the type Politician is subclass of the type **Person**.
 
+The following image shows an ontology[^3] with some entities (often referred to as instances). **Barack Obama**, **Italy** and **Tiber** are entities (yellow circles), while the others are Types (**Thing** is a special super type in this case). We can see that the types are organized in a hierarchy. The dotted lines represent a subclass of relationships, meaning, for example, that a Politician is also a Person. Normal lines instead represent an **instance of** predicate, meaning that **Barack Obama** is a **Politician** (but also a **Person**, and a **Thing**).
+
+![](https://github.com/vinid/vinid.github.io/raw/f316aaad1119e9257f833f3587706a27d1857f5f/images/posts/ds/blog_ontology_hierarchy.png)
+
 ### Similarity
 
 One important task is to define how similar are two different ontological concepts. In the literature this has often been done with distance measures over the hierarchy. There are many different measures that can be considered,[^2] but they share all the same basic idea of distance.
@@ -63,7 +67,7 @@ We can use a simple trick to create distributional representations of ontologica
 The following figure shows the process with simple and high level steps. 
 ![](https://github.com/vinid/vinid.github.io/raw/master/images/posts/ds/ds_process_types.jpg)
 
-The key difference between this representation and the other standard metric used for similarity evaluation is that this kind of representation allow us to evaluate a usage-based similarity between concepts
+The key difference between this representation and the other standard metric used for similarity evaluation is that this kind of representation allow us to evaluate a usage-based similarity between concepts. We can see some examples in the next table.
 
 | Type 1           | Type 2                  | Sim - wpath | Sim - T2V |
 |------------------|-------------------------|-------------|-----------|
@@ -75,7 +79,7 @@ The key difference between this representation and the other standard metric use
 | dbo:Company      | dbo:Airline             | 0.72        | 0.30      |
 
 
-
+What is clear, is that the T2V similarity gives a different interperetation to the concept of similar ty: SoccerPlayer and SoccerClub are similar because they co-occur in similar contexts; however, a Company and an Airline are indeed related but not very similar has they might occur in different contexts.
 
 
 ## To Know More
@@ -90,3 +94,4 @@ such as ELMo and BERT tend to be used.
 
 [^1]: This is true for the version of word2vec without negative sampling, that is slightly different.
 [^2]: See **Zhu, G., & Iglesias, C. A. (2016). Computing semantic similarity of concepts in knowledge graphs. IEEE Transactions on Knowledge and Data Engineering, 29(1), 72-85.** for an interesting discussion over different measures.
+[^3]: This ontology is strongly inspired by the DBpedia Ontology.
