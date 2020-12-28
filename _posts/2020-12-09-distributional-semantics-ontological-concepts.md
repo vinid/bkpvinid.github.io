@@ -29,6 +29,10 @@ ontological representation learning.
 Ontological concepts are used to categorize entities. For example, the concept that categorize Barack Obama and Donald Trump, might be **Politician**. Concepts are also referred to as types.
 Types are also often organized in hierarchies, indicating subclass of relationships: for example, the type Politician is subclass of the type **Person**.
 
+### Similarity
+
+One important task is to define how similar are two different ontological concepts. In the literature this has often been done with distance measures over the hierarchy. There are many different measures that can be considered,[^2] but they share all the same basic idea of distance.
+
 ## Distributional Semantics
 
 Distributional Semantics, is a well-known theory about meaning: the general assumption is that the meaning of a 
@@ -59,6 +63,21 @@ We can use a simple trick to create distributional representations of ontologica
 The following figure shows the process with simple and high level steps. 
 ![](https://github.com/vinid/vinid.github.io/raw/master/images/posts/ds/ds_process_types.jpg)
 
+The key difference between this representation and the other standard metric used for similarity evaluation is that this kind of representation allow us to evaluate a usage-based similarity between concepts
+
+| Type 1           | Type 2                  | Sim - wpath | Sim - T2V |
+|------------------|-------------------------|-------------|-----------|
+| dbo:SoccerPlayer | dbo:SoccerClub          | 0.17        | 0.72      |
+| dbo:SoccerPlayer | dbo:Wrestler            | 0.47        | 0.24      |
+| dbo:RailwayLine  | dbo:Station             | 0.44        | 0.81      |
+| dbo:Vein         | dbo:Artery              | 0.70        | 0.84      |
+| dbo:RailwayLine  | dbo:PublicTransitSystem | 0.11        | 0.79      |
+| dbo:Company      | dbo:Airline             | 0.72        | 0.30      |
+
+
+
+
+
 ## To Know More
 You can find the main ideas that drove this blogpost in the two following works:
 
@@ -70,3 +89,4 @@ Word2vec is now considered an "ond" algorithm (even if it sill has a lot of appl
 such as ELMo and BERT tend to be used.
 
 [^1]: This is true for the version of word2vec without negative sampling, that is slightly different.
+[^2]: See **Zhu, G., & Iglesias, C. A. (2016). Computing semantic similarity of concepts in knowledge graphs. IEEE Transactions on Knowledge and Data Engineering, 29(1), 72-85.** for an interesting discussion over different measures.
