@@ -24,6 +24,10 @@ defaults:
 The main idea behind this blog post is to give an overview of some of the work I did on combining distributional semantics methods with
 ontological representation learning.
 
+## Introduction
+
+Concept similarity has often been computed considering the distance between the concept in an ontology. However, this view does not account for how concepts are used and referred to in the real world. Applying distributional semantics methods to ontological concepts can give a different point of view on concept similarity evaluation.
+
 ## Ontological Concepts
 
 Ontological concepts are used to categorize entities. For example, the concept that categorize Barack Obama and Donald Trump, might be **Politician**. Concepts are also referred to as types.
@@ -31,20 +35,27 @@ Types are also often organized in hierarchies, indicating subclass of relationsh
 
 The following image shows an ontology[^3] with some entities (often referred to as instances). **Barack Obama**, **Italy** and **Tiber** are entities (yellow circles), while the others are Types (**Thing** is a special super type in this case). We can see that the types are organized in a hierarchy. The dotted lines represent a subclass of relationships, meaning, for example, that a Politician is also a Person. Normal lines instead represent an **instance of** predicate, meaning that **Barack Obama** is a **Politician** (but also a **Person**, and a **Thing**).
 
-![](https://github.com/vinid/vinid.github.io/raw/f316aaad1119e9257f833f3587706a27d1857f5f/images/posts/ds/blog_ontology_hierarchy.png)
+![](https://github.com/vinid/vinid.github.io/raw/6cafa4eb849528f4c55236f1a5fc8c982690cbc8/images/posts/ds/blog_ontology_hierarchy.png)
 
 ### Similarity
 
 One important task is to define how similar are two different ontological concepts. In the literature this has often been done with distance measures over the hierarchy. There are many different measures that can be considered,[^2] but they share all the same basic idea of distance.
 
-## Distributional Semantics
+## Language-based Concept Representation
+
+These hierarchies are often artificial and manually defined and the general sense of similarity is given by topological aspects of the hierarchy. For example, in DBpedia, the types SoccerPlayer and SoccerClub are far and thus not similar.
+
+In this blog post, we want to explore a language-based way to represent concepts in such a way that concpets that share linguistic contexts (appear in similar contexts), are deemed to be similar.
+
+### Distributional Semantics
 
 Distributional Semantics, is a well-known theory about meaning: the general assumption is that the meaning of a 
 word in a sentence can be inferred by looking at the context. Consider the following sentence "The swelybot is very 
-friendly and it can be domesticated". Even if you do not know what is the meaning of "swelybot" is, 
-you can more or less get a general idea of what "swelybot" might refer to: an animal that can be domesticated.
+friendly and can be easily domesticated". Even if you do not know what is the meaning of "swelybot" is, 
+you can more or less get a general idea of what "swelybot" might refer to: an animal that can be domesticated. To know more about distributional semantics I suggest giving a look to [this set of slides](https://esslli2016.unibz.it/wp-content/uploads/2015/10/dsm_tutorial_part1.slides.pdf).
 
-## Distributional Semantics in The Vector Space
+
+### Distributional Semantics in The Vector Space
 During the various years that followed the introduction of distributional semantics, people started to introduce different methods to incorprare distributional semantics into language. 
 
 The only way for us to use distributional semantics in computer science/computational linguistics is to brings words and 
@@ -53,21 +64,25 @@ sentences to the vector space.
 Skipping many years in time, distributional semantic neural network become absurdly popular with the release of the
 word2vec paper by Mikolov et al., 2013.
 
-Word2vec trains a one hidden layer neural network[^1] end essentially it learns to predict a word from a neighbouring word and viceversa. During this training process, it learns the representation of words. These representations, based on the co-occurrence of the word in a corpus, can be used for many different tasks. More importantly, since the model is inspired by distributional semantics, these representations exibit some expected qualities, for example, similar words will have similar vectors.
+Word2vec trains a one hidden layer neural network[^1] end essentially it learns to predict a word from a neighbouring word (or viceversa). During this training process, it learns the representation of words. These representations, based on the co-occurrence of the word in a corpus, can be used for many different tasks. More importantly, since the model is inspired by distributional semantics, these representations exibit some expected qualities, for example, similar words will have similar vectors.
 
 The following image sums everything up:
 ![](https://github.com/vinid/vinid.github.io/raw/3b90046e970d8347dc9afc4a1870e79a26639f81/images/posts/ds/blog_distributional_semantics_id.png)
 The most simplistic way to see distributional semantics when applied in computation is to think of it has a method to put words that appear in similar contexts into close positions in a vector space.
 
-## Distributional Semantics for Ontological Concepts
+### Distributional Semantics for Ontological Concepts
 
 A concept we need to introduce to better understand what are we going to talk about is the concept of Knowledge Graph. A knowledge graph is a way to model knoweldge using a graph. Roughly speaking, in a knowledge graph, nodes describe real world entities (e.g., Barack Obama) and edges are relationships that connect the entities (e.g., Barack Obama, born in, Hawaii).
 
-We can use a simple trick to create distributional representations of ontological concepts. We now make two assumptions: we have some text available and we can identify entites of a Knowledge Graph in the text.
+We can use a simple trick to create distributional representations of ontological concepts. We now make two assumptions: we have some text available and we can identify entites of a Knowledge Graph in the text. Thus, given in input a text, we first annotate it using an entity linker (e.g., [DBpedia Spotlight](https://www.dbpedia-spotlight.org/demo/), we remove the words and then we replace the entities with their most specific type in the ontology.
+
+
 The following figure shows the process with simple and high level steps. 
 ![](https://github.com/vinid/vinid.github.io/raw/master/images/posts/ds/ds_process_types.jpg)
 
-The key difference between this representation and the other standard metric used for similarity evaluation is that this kind of representation allow us to evaluate a usage-based similarity between concepts. We can see some examples in the next table.
+Given the text, DBpedia Spotlight allows us to find the entities **Tiber** and **Italy**[^4] in the text, and then we replace them with **River** and **Country**. Then, we apply the word2vec algorithm to generate type representations. We call this approach Type2Vec (T2V).
+
+The key difference between this representation and the other standard metric used for similarity evaluation is that this kind of representation allow us to evaluate a usage-based similarity between concepts. We can see some examples in the next table. 
 
 | Type 1           | Type 2                  | Sim - wpath | Sim - T2V |
 |------------------|-------------------------|-------------|-----------|
@@ -95,3 +110,4 @@ such as ELMo and BERT tend to be used.
 [^1]: This is true for the version of word2vec without negative sampling, that is slightly different.
 [^2]: See **Zhu, G., & Iglesias, C. A. (2016). Computing semantic similarity of concepts in knowledge graphs. IEEE Transactions on Knowledge and Data Engineering, 29(1), 72-85.** for an interesting discussion over different measures.
 [^3]: This ontology is strongly inspired by the DBpedia Ontology.
+[^4]: dbr is a prefix that identifies a DBpedia resource/entity while dbo identifies elements of the ontology.
