@@ -20,18 +20,19 @@ defaults:
       related: true
 ---
 
-(In Progress)
+(In Progress - Early Draft)
 The main idea behind this blog post is to give an overview of some of the work I did on combining distributional semantics methods with
 ontological representation learning.
 
 ## Introduction
 
-Concept similarity has often been computed considering the distance between the concept in an ontology. However, this view does not account for how concepts are used and referred to in the real world. Applying distributional semantics methods to ontological concepts can give a different point of view on concept similarity evaluation.
+Being able to represent ontological concepts (e.g., **Country**, **City**, **Person**) is important for many tasks in both Natural Language Processing and the Semantic Web. For example, it can be useful in Named Entity Recognition, where we need to be able to distinguish different kinds of elements. A key factor that makes ontologies useful is that they can be used to say how similar two concepts are. Ontologies are generally defined as subclass of hierarchies (**Politician** is a subclass of **Person**) and thus, the similarity between concepts can be defined in terms of distance of the concepts in the hierarchy (e.g., **City** and **Town** are much more similar than **City** and **Mammal**).
+
+However, this view does not account for how concepts are used and referred to in the real world. For example, the concepts **SoccerPlayer** and **SoccerClub** are completely different under a structural point of view, but they sure are related. Applying distributional semantics methods to ontological concepts can give a different point of view on concept similarity evaluation.
 
 ## Ontological Concepts
 
-Ontological concepts are used to categorize entities. For example, the concept that categorize Barack Obama and Donald Trump, might be **Politician**. Concepts are also referred to as types.
-Types are also often organized in hierarchies, indicating subclass of relationships: for example, the type Politician is subclass of the type **Person**.
+Ontological concepts are used to categorize entities. For example, the concept that categorizes Barack Obama and Donald Trump, might be **Politician**. Concepts are also referred to as types. Types are also often organized in hierarchies, indicating subclass of relationships: for example, the type Politician is subclass of the type **Person**.
 
 The following image shows an ontology[^3] with some entities (often referred to as instances). **Barack Obama**, **Italy** and **Tiber** are entities (yellow circles), while the others are Types (**Thing** is a special super type in this case). We can see that the types are organized in a hierarchy. The dotted lines represent a subclass of relationships, meaning, for example, that a Politician is also a Person. Normal lines instead represent an **instance of** predicate, meaning that **Barack Obama** is a **Politician** (but also a **Person**, and a **Thing**).
 
@@ -39,7 +40,7 @@ The following image shows an ontology[^3] with some entities (often referred to 
 
 ### Similarity
 
-One important task is to define how similar are two different ontological concepts. In the literature this has often been done with distance measures over the hierarchy. There are many different measures that can be considered,[^2] but they share all the same basic idea of distance.
+As we said above, one important task is to define how similar two different ontological concepts are. In the literature this has often been done with distance measures over the hierarchy. There are many different measures that can be considered,[^2] but they share all the same basic idea of distance.
 
 ## Language-based Concept Representation
 
@@ -53,7 +54,6 @@ Distributional Semantics, is a well-known theory about meaning: the general assu
 word in a sentence can be inferred by looking at the context. Consider the following sentence "The swelybot is very 
 friendly and can be easily domesticated". Even if you do not know what is the meaning of "swelybot" is, 
 you can more or less get a general idea of what "swelybot" might refer to: an animal that can be domesticated. To know more about distributional semantics I suggest giving a look to [this set of slides](https://esslli2016.unibz.it/wp-content/uploads/2015/10/dsm_tutorial_part1.slides.pdf).
-
 
 ### Distributional Semantics in The Vector Space
 During the various years that followed the introduction of distributional semantics, people started to introduce different methods to incorprare distributional semantics into language. 
@@ -82,7 +82,7 @@ The following figure shows the process with simple and high level steps.
 
 Given the text, DBpedia Spotlight allows us to find the entities **Tiber** and **Italy**[^4] in the text, and then we replace them with **River** and **Country**. Then, we apply the word2vec algorithm to generate type representations. We call this approach Type2Vec (T2V).
 
-The key difference between this representation and the other standard metric used for similarity evaluation is that this kind of representation allow us to evaluate a usage-based similarity between concepts. We can see some examples in the next table. 
+The key difference between this representation and the other standard metric used for similarity evaluation is that this kind of representation allow us to evaluate a usage-based similarity between concepts. We can see some examples in the next table in which we compare the similariy computed using T2V (cosine similarity) with one of the measures used in the literature to computethe distance between two concepts[^2].
 
 | Type 1           | Type 2                  | Sim - wpath | Sim - T2V |
 |------------------|-------------------------|-------------|-----------|
