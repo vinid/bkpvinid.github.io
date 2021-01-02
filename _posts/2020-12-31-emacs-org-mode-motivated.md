@@ -1,6 +1,6 @@
 ---
 permalink: /2020-12-31-emacs-org-mode-motivated
-title: "Emacs and Org-mode helped feel me organized and motivated again"
+title: "Emacs and Org-mode helped me feel organized and motivated again"
 excerpt: "Recently, getting my hands on emacs and org-mode again helped me to get back to where it all started"
 author_profile: true
 
