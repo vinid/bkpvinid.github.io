@@ -35,7 +35,7 @@ With this decrease in love for programming and with a general lockdown situation
 
 I do not remember exactly why, but I suddently decided to install Emacs. If you do not know Emacs, it is this 40 years old weird text editor that I left it for VIM[^1] almost 9 years ago. I do not even remember why I left it, but maybe it was because Emacs is a difficult text editor to deal with. However, Emacs is much more than a simple text editor (the joke you usually hear is that "VIM is a text editor and Emacs has a text editor").
 
-![](https://www.emacswiki.org/pics/static/CarbonEmacsPackageIcon.png)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/EmacsIcon.svg/1024px-EmacsIcon.svg.png =250px)
 
 Emacs allows you to set up your own configuration for essentially everything. If something is missing, you can write the code for it. Emacs gives you extreme text edition capabilities that other editor do not give you by default and you can integrate it with a lot of stuff. There are many cool packages out there (I will talk about org mode in a momeny) and I could make tons of examples, but one that might stick is that you can even run [Spotify](https://github.com/danielfm/spotify.el) from Emacs. 
 
@@ -43,9 +43,9 @@ The small price to pay is a learning curve at the start, but it is totally worth
 
 All the configuring made me fell like I felt the first time I installed Ubuntu. The same feeling of nerdy exploration that made me join the University for a Computer Science degree. Emacs makes me happy to open my laptop just to tweak a few things and weirdly, it keeps me motivated.
 
-On the more productivity related side, I am using the amazing [org mode](https://orgmode.org/) to keep track of my schedule and the notes of the courses I am following. By pressing a few keys I can see the calendar and open the related note file. Org mode is making me much more productive, I can follow the progress of different projects without losing track. For most things, I do not even need to open firefox anymore, that was and still is the main soruce of my general procrastination and distraction.
+On the more productivity related side, I am using the amazing [org mode](https://orgmode.org/) to keep track of my schedule and the notes of the courses I am following. By pressing a few keys I can see the calendar and open the related note file. Org mode is making me much more productive, I can follow the progress of different projects without losing track. For most things, I do not even need to open firefox anymore, that was and still is the main soruce of my general procrastination and distraction. See the mighty org mode logo:
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Org-mode-unicorn.svg/1200px-Org-mode-unicorn.svg.png)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Org-mode-unicorn.svg/1200px-Org-mode-unicorn.svg.png =250px)
 
 I was so satisfied by this whole emacs experience that I eventually decided to install the emacs desktop manager EXWM (getting rid of GNOME). This allows me to have emacs keybindings anywhere on my OS. For example, now I can use C-n and C-p to navigate all the pages.
 
