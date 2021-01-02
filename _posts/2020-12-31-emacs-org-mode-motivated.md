@@ -47,4 +47,4 @@ I was so satisfied by this whole emacs experience that I eventually decided to i
 
 I am very happy with this new set up and I plan to extend my configuration to support me even better :).
 
-[^1] Vim is another very famous text editor.
+[^1]: Vim is another very famous text editor.
