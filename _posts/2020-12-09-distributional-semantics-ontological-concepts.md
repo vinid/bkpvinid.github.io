@@ -32,11 +32,13 @@ Two key factors of ontologies are that they allow us to organize knowledge and t
 
 However, this view does not account for how concepts are used and referred to in the real world. For example, the concepts **SoccerPlayer** and **SoccerClub** are completely different from a structural point of view, but they sure are related. Applying distributional semantics methods to ontological concepts can give a different point of view on concept similarity evaluation.
 
-## Ontological Concepts
+## Ontological Concepts 
 
 Ontological concepts are used to categorize entities. For example, the concept that categorizes Barack Obama and Donald Trump might be **Politician**. Concepts are also referred to as types. Types are also often organized in hierarchies, indicating subclass of relationships: for example, the type Politician is subclass of the type **Person**.
 
-The following image shows an ontology[^3] with some entities (often referred to as instances). **Barack Obama**, **Italy** and **Tiber** are entities (yellow circles), while the others are Types (**Thing** is a special super type in this case). We can see that the types are organized in a hierarchy. The dotted lines represent a subclass of relationships, meaning, for example, that a Politician is also a Person. Normal lines instead represent an **instance of** predicate, meaning that **Barack Obama** is a **Politician** (but also a **Person**, and a **Thing**).
+A concept we need to introduce to better understand what are we going to talk about is the concept of Knowledge Graph. A knowledge graph is a way to model knowledge using a graph. Roughly speaking, in a knowledge graph, nodes describe real-world entities (e.g., Barack Obama) and edges are relationships that connect the entities (e.g., Barack Obama, born in, Hawaii).
+
+The following image shows an exmample of what is usually called a knowledge graph (I have removed relationships) with an ontology[^3]. The ontology helps in categorizing the entities (often referred to as instances). **Barack Obama**, **Italy** and **Tiber** are entities (yellow circles), while the others are Types (**Thing** is a special super type in this case). We can see that the types are organized in a hierarchy. The dotted lines represent a subclass of relationships, meaning, for example, that a Politician is also a Person. Normal lines instead represent an **instance of** predicate, meaning that **Barack Obama** is a **Politician** (but also a **Person**, and a **Thing**).
 
 ![](https://github.com/vinid/vinid.github.io/raw/master/images/posts/ds/blog_ontology_hierarchy.png)
 
@@ -44,7 +46,7 @@ The following image shows an ontology[^3] with some entities (often referred to 
 
 As we said above, one important task is to define how similar two different ontological concepts are. In the literature, this has often been done with distance measures over the hierarchy. There are many different measures that can be considered,[^2] but they share all the same basic idea of distance.
 
-## Language-based Concept Representation
+## Language-based Concept Representations
 
 These hierarchies are often artificial and manually defined and the general sense of similarity is given by topological aspects of the hierarchy. For example, in DBpedia, the types SoccerPlayer and SoccerClub are far and thus not similar.
 
@@ -73,8 +75,6 @@ The most simplistic way to see distributional semantics when applied in computat
 
 ### Distributional Semantics for Ontological Concepts
 
-A concept we need to introduce to better understand what are we going to talk about is the concept of Knowledge Graph. A knowledge graph is a way to model knowledge using a graph. Roughly speaking, in a knowledge graph, nodes describe real-world entities (e.g., Barack Obama) and edges are relationships that connect the entities (e.g., Barack Obama, born in, Hawaii).
-
 We can use a simple trick to create distributional representations of ontological concepts. We now make two assumptions: we have some text available and we can identify entities of a Knowledge Graph in the text. Thus, given in input a text, we first annotate it using an entity linker (e.g., [DBpedia Spotlight](https://www.dbpedia-spotlight.org/demo/), we remove the words and then we replace the entities with their most specific type in the ontology.
 
 The following figure shows the process with simple and high-level steps. 
@@ -94,7 +94,14 @@ The key difference between this representation and the other standard metric use
 | dbo:Company      | dbo:Airline             | 0.72        | 0.30      |
 
 
-What is clear, is that the T2V similarity gives a different interpretation to the concept of similar ty: SoccerPlayer and SoccerClub are similar because they co-occur in similar contexts; instead, the wpath measure, that is based on distance, tells us that SoccerPlayer and SoccerClub are not similar, because they are very far in the ontology. On the other hand, a Company and an Airline are indeed related but not very similar as they might occur in different contexts.
+What is clear, is that the T2V similarity gives a different interpretation to the concept of similar ty: **SoccerPlayer** and **SoccerClub** are similar because they co-occur in similar contexts; instead, the wpath measure, that is based on distance, tells us that **SoccerPlayer** and **SoccerClub** are not similar, because they are very far in the ontology. On the other hand, a **Company** and an **Airline** are indeed related but not very similar as they might occur in different contexts.
+
+Another very interesting example, is shown in the next table. Whereas wpath tells us that **SoccerPlayer**, **BasketballPlayer** and **ChessPlayer** are all equally similar because they share the same parent node (i.e., they are all siblings in the ontology, at the same level). T2V tells us that **SoccerPlayer** is much more similar to **BasketballPayer** than to **ChessPlayer**, giving us a more meaninful result, as Soccer and Basketball are sports that have more in common than Soccer and Chess.
+
+| Type 1           | Type 2                  | Sim - wpath | Sim - T2V |
+|------------------|-------------------------|-------------|-----------|
+| dbo:SoccerPlayer | dbo:BasketballPlayer    | 0.47        | 0.74      |
+| dbo:SoccerPlayer | dbo:ChessPlayer         | 0.47        | 0.44      |
 
 
 ## To Know More
@@ -102,7 +109,6 @@ You can find the main ideas that drove this blogpost in the two following works:
 
 + Bianchi, F., Palmonari, M., & Nozza, D. (2018, October). Towards encoding time in text-based entity embeddings. In International Semantic Web Conference (pp. 56-71). Springer, Cham.
 + Bianchi, F., Soto, M., Palmonari, M., & Cutrona, V. (2018). Type Vector Representations from Text: An Empirical Analysis. In DL4KGS@ ESWC (pp. 72-83).
-
 
 Word2vec is now considered an "old" algorithm (even if it still has a lot of applications). More recent language models
 such as ELMo and BERT tend to be used.
