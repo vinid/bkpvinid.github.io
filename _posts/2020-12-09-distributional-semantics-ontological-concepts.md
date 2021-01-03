@@ -38,7 +38,7 @@ Ontological concepts are used to categorize entities. For example, the concept t
 
 The following image shows an ontology[^3] with some entities (often referred to as instances). **Barack Obama**, **Italy** and **Tiber** are entities (yellow circles), while the others are Types (**Thing** is a special super type in this case). We can see that the types are organized in a hierarchy. The dotted lines represent a subclass of relationships, meaning, for example, that a Politician is also a Person. Normal lines instead represent an **instance of** predicate, meaning that **Barack Obama** is a **Politician** (but also a **Person**, and a **Thing**).
 
-![](https://github.com/vinid/vinid.github.io/raw/6cafa4eb849528f4c55236f1a5fc8c982690cbc8/images/posts/ds/blog_ontology_hierarchy.png)
+![](https://github.com/vinid/vinid.github.io/raw/master/images/posts/ds/blog_ontology_hierarchy.png)
 
 ### Similarity
 
