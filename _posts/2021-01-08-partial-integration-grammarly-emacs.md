@@ -35,7 +35,6 @@ Essentially, the function does two things:
 It is quite simple, but it is effective. Let's see the function.
 
 ```elisp
-
 (defun open-grammarly-with-kill ()
 "A function to open a new grammarly document"
   (interactive)
