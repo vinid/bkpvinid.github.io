@@ -39,9 +39,11 @@ It is quite simple, but it is effective. Let's see the function.
 "A function to open a new grammarly document"
   (interactive)
   (progn  
-       (copy-region-as-kill (region-beginning) (region-end))
+       (if mark-active (copy-region-as-kill (region-beginning) (region-end)) nil)
        (browse-url "https://app.grammarly.com/docs/new")))
 ```
+
+We check if the mark is active. If it is, we copy the region, otherwise we do not do anything. Eventually, we open grammarly. If we had the marker active, we now can yank the text (not that I am doing this in EXWM).
 
 You might want to set this as a keybinding, I am currently using C-c C-g to do this.
 
