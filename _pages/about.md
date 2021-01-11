@@ -47,7 +47,7 @@ NEWS
 ----
 
 + (21/12/2020) I am co-organizing a tutorial at [IJCAI 2020](https://www.ijcai20.org) about Neuro-Symbolic Learning and Reasoning
-+ (21/12/2020) I have been awarded as *Outstanding Reviwer* at [EMNLP2020](https://www.aclweb.org/anthology/2020.emnlp-main.0.pdf)
++ (21/12/2020) I have been awarded as *Outstanding Reviewer* at [EMNLP2020](https://www.aclweb.org/anthology/2020.emnlp-main.0.pdf)
 + (20/12/2020) I will be a tutor at the [M2L Summer School](https://www.m2lschool.org/speakers) for the NLP Tutorials
 
 Contact
