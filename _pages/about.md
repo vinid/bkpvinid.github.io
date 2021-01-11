@@ -23,6 +23,7 @@ data analytics over text.
 During my PhD at Bicocca University I got the chance to speak at different venues like Stanford University
 and Monterey, California and at many other conferences.
 
+I like coding, and I love (functional) programming languages. I am a very happy emacs user.
 
 Research Experience
 -------------------
@@ -30,7 +31,7 @@ Research Experience
 I like doing a lot of different things! I have different interests that range from neuro-symbolic learning and reasoning to natural language processing and from 
 quantum physics to deep learning for the e-commerce.
 
-I have papers in the main track of different AI venues (e.g., [AAAI](https://www.aaai.org/ojs/index.php/AAAI/article/view/4594/4472),
+I have papers in the main track of different AI venues (e.g., EACL, [AAAI](https://www.aaai.org/ojs/index.php/AAAI/article/view/4594/4472),
  [ACL](https://www.aclweb.org/anthology/2020.acl-main.154.pdf), 
  [ISWC](https://link.springer.com/chapter/10.1007/978-3-030-00671-6_4), [RecSys](https://dl.acm.org/doi/abs/10.1145/3383313.3411477)), workshop proceedings (WWW, [NeurIPS](https://github.com/orlrworkshop/orlrworkshop.github.io/blob/master/pdf/ORLR_12.pdf)) and Q1 Journals (e.g., 
 [Nature PJQI](https://www.nature.com/articles/s41534-020-0248-6), [SWJ](http://www.semantic-web-journal.net/system/files/swj2188.pdf)) and a few things have also been
@@ -46,6 +47,7 @@ I worked as a full-stack software developer for Mobave LLC (later acquired by In
 NEWS
 ----
 
++ (11/01/2020) Paper accepted at EACL!  [Cross-lingual Contextualized Topic Models with Zero-shot Learning.](https://arxiv.org/pdf/2004.07737v1.pdf) EACL. 
 + (21/12/2020) I am co-organizing a tutorial at [IJCAI 2020](https://www.ijcai20.org) about Neuro-Symbolic Learning and Reasoning
 + (21/12/2020) I have been awarded as *Outstanding Reviewer* at [EMNLP2020](https://www.aclweb.org/anthology/2020.emnlp-main.0.pdf)
 + (20/12/2020) I will be a tutor at the [M2L Summer School](https://www.m2lschool.org/speakers) for the NLP Tutorials
