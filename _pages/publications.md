@@ -5,8 +5,18 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can find most of my work on <u><a href="https://scholar.google.com/citations?user=1okGjb8AAAAJ&hl=it">my Google Scholar profile</a>. Here's some recent
-stuff I have been doing:
+You can find most of my work on my [Google Scholar](https://scholar.google.com/citations?user=1okGjb8AAAAJ&hl=it) profile.
+Here's some recent stuff I have been doing:
+
+### Cross-lingual Contextualized Topic Models with Zero-shot Learning
+
+In our EACL2021 paper, we introduce a novel variational topic model that combines the expressive powers of contextual embeddings (such as BERT) with
+the capabilities of topic models. We get ZeroShotTM a model that can predict topics for unseen languages!
+
+Bianchi, F., Terragni, S., Hovy, D., Nozza, D., & Fersini, E. (2021).  Cross-lingual Contextualized Topic Models with Zero-shot Learning. EACL. https://arxiv.org/pdf/2004.07737v1.pdf
+
++ **Paper**: [https://arxiv.org/abs/2004.07737](https://arxiv.org/abs/2004.07737)
++ **Python Package**: [https://github.com/MilaNLProc/contextualized-topic-models](https://github.com/MilaNLProc/contextualized-topic-models)
 
 ### BERT Goes Shopping
 
