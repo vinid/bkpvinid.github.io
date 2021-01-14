@@ -20,7 +20,7 @@ defaults:
       related: true
 ---
 
-(In Progress - Early Draft)
+(In Progress - Draft)
 The main idea behind this blog post is to give an overview of some of the work I did on combining distributional semantics methods with
 ontological representation learning.
 
@@ -34,7 +34,9 @@ However, this view does not account for how concepts are used and referred to in
 
 ## Ontological Concepts 
 
-Ontological concepts are used to categorize entities. For example, the concept that categorizes Barack Obama and Donald Trump might be **Politician**. Concepts are also referred to as types. Types are also often organized in hierarchies, indicating subclass of relationships: for example, the type Politician is subclass of the type **Person**.
+Ontological concepts are used to categorize entities. For example, the concept that categorizes Barack Obama and Donald Trump might be **Politician**. Note that concepts are also referred to as types.
+
+Types are also often organized in hierarchies, indicating subclass of relationships: for example, the type Politician is subclass of the type **Person**.
 
 A concept we need to introduce to better understand what are we going to talk about is the concept of Knowledge Graph. A knowledge graph is a way to model knowledge using a graph. Roughly speaking, in a knowledge graph, nodes describe real-world entities (e.g., Barack Obama) and edges are relationships that connect the entities (e.g., Barack Obama, born in, Hawaii).
 
@@ -75,7 +77,7 @@ The most simplistic way to see distributional semantics when applied in computat
 
 ### Distributional Semantics for Ontological Concepts
 
-We can use a simple trick to create distributional representations of ontological concepts. We now make two assumptions: we have some text available and we can identify entities of a Knowledge Graph in the text. Thus, given in input a text, we first annotate it using an entity linker (e.g., [DBpedia Spotlight](https://www.dbpedia-spotlight.org/demo/), we remove the words and then we replace the entities with their most specific type in the ontology.
+We can use a simple trick to create distributional representations of ontological concepts. We now make two assumptions: we have some text available and we can identify entities of a Knowledge Graph in the text. Thus, given in input a text, we first annotate it using an entity linker (e.g., [DBpedia Spotlight](https://www.dbpedia-spotlight.org/demo/), we remove the words and then we replace the entities with their most specific type in the ontology. Thus, we go from text, to entities of a knowledge graph and finally to the types of those entities.
 
 The following figure shows the process with simple and high-level steps. 
 ![](https://github.com/vinid/vinid.github.io/raw/master/images/posts/ds/ds_process_types.jpg)
