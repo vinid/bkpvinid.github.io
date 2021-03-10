@@ -47,7 +47,9 @@ I worked as a full-stack software developer for Mobave LLC (later acquired by In
 NEWS
 ----
 
-+ (11/01/2020) Paper accepted at EACL2021!  [Cross-lingual Contextualized Topic Models with Zero-shot Learning.](https://arxiv.org/pdf/2004.07737v2.pdf). 
++ (10/03/2021) Two papers accepted at [NAACL2021](/2021-03-10-papers-accepted-naacl2021)
++ (18/02/2021)  Two papers accepted at the WASSA workshop at EACL!
++ (11/01/2021) Two papers accepted at EACL2021! One is [Cross-lingual Contextualized Topic Models with Zero-shot Learning.](https://arxiv.org/pdf/2004.07737v2.pdf) and BERTective: Language Models and Contextual Information for Deception Detection
 + (21/12/2020) I am co-organizing a tutorial at [IJCAI 2020](https://www.ijcai20.org) about Neuro-Symbolic Learning and Reasoning
 + (21/12/2020) I have been awarded as *Outstanding Reviewer* at [EMNLP2020](https://www.aclweb.org/anthology/2020.emnlp-main.0.pdf)
 + (20/12/2020) I will be a tutor at the [M2L Summer School](https://www.m2lschool.org/speakers) for the NLP Tutorials
